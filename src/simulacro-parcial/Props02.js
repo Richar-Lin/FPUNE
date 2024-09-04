@@ -6,7 +6,7 @@ const Props02 = ({ route }) => {
 
   return (
     <View >
-      <Text style={styles.text}>nombre: {inputValue} - estado: {estado} </Text>
+      <Text style={styles.text}>nombre: {inputValue} - estado: {estado ? 'verdedero': 'falso'} </Text>
       
     </View>
   );
