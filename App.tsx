@@ -15,10 +15,10 @@ import TabBasic from './src/react-native-elements/TabBasic';
 import PropsEjemplo from './src/navegacion/PropsEjemplo';
 import AxiosEjemplo from './src/navegacion/AxiosEjemplo';
 import AsyncStorageEjemplo from './src/navegacion/AsyncStorageEjemplo';
-import Componente01 from './src/simulacro-parcial/Componente01';
-import Props02 from './src/simulacro-parcial/Props02';
-import Axios03 from './src/simulacro-parcial/Axios03';
-import AsyncStorage04 from './src/simulacro-parcial/AsyncStorage04';
+import ComponenteParcial01 from './src/primera-parcial/ComponenteParical01';
+import PropsParcial02 from './src/primera-parcial/PropsParcial02';
+import AxiosParcial03 from './src/primera-parcial/AxiosParcial03';
+import AsyncStorageParcial04 from './src/primera-parcial/AsyncStorageParcial04';
 
 
 const Stack = createNativeStackNavigator();
@@ -45,11 +45,11 @@ const App = () => {
          </Stack.Navigator>
       </NavigationContainer>*/
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Componente01">
-        <Stack.Screen name="Componente01" component={Componente01} />
-        <Stack.Screen name="Props02" component={Props02} />
-        <Stack.Screen name="Axios03" component={Axios03} />
-        <Stack.Screen name="AsyncStorage04" component={AsyncStorage04} />
+      <Stack.Navigator initialRouteName="ComponenteParcial01">
+        <Stack.Screen name="ComponenteParcial01" component={ComponenteParcial01} />
+        <Stack.Screen name="PropsParcial02" component={PropsParcial02} />
+        <Stack.Screen name="AxiosParcial03" component={AxiosParcial03} />
+        <Stack.Screen name="AsyncStorageParcial04" component={AsyncStorageParcial04} />
       </Stack.Navigator>
     </NavigationContainer>
     // </ScrollView>
