@@ -105,7 +105,7 @@ const AsyncStorage04 = () => {
             <ListItem.Subtitle>{id}</ListItem.Subtitle>
           </ListItem.Content>
           <Button icon={{ name: 'edit', type: 'font-awesome', size: 15, color: 'white' }} onPress={() => editar(id, value)} />
-          <Button icon={{ name: 'trash', type: 'font-awesome', size: 15, color: 'white' }} onPress={() => eliminar(id)} />
+          <Button icon={{ name: 'trash', type: 'font-awesome', size: 15, color: 'red' }} onPress={() => eliminar(id)} />
         </ListItem>
       ))}
     </View>
